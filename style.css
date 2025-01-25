@@ -61,6 +61,7 @@ h1 {
   padding-top: 18px;
   padding-left: 60px;
   float: left;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75);
 }
 
 #navbar ul li {
@@ -77,6 +78,7 @@ h1 {
   text-decoration: none;
   position: relative;
   color: #fff1e4;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.75);
 }
 
 #navbar ul li a:hover::after,
@@ -287,12 +289,12 @@ footer p a {
   position: relative;
 }
 
-#showcase-eelroad .showcase-content {
+#showcase .showcase-content {
   color: #fff1e4;
   text-align: center;
 }
 
-#showcase-eelroad .showcase-content h2 {
+#showcase .showcase-content h2 {
   font-size: 128px;
   font-family: Pirata One;
   font-weight: 400;
@@ -324,7 +326,7 @@ footer p a {
 
 /* Recipe Card */
 .recipe-card {
-  background-color: #f9f4ec; /* Light cream background */
+  background-color: #fff1e4; /* Light cream background */
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -359,4 +361,347 @@ footer p a {
   font-size: 1rem;
   color: #555;
   line-height: 1.5;
+}
+
+/* soolaste toitude showcase */
+
+#showcase-soolased-toidud {
+  background: url("./img/soolased-toidud-kaanepilt.png") no-repeat center
+    center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+  position: relative;
+}
+
+/* magustoitude showcase */
+
+#showcase-magustoidud {
+  background: url("./img/magustoidud-kaanepilt.png") no-repeat center
+    center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+  position: relative;
+}
+
+/* jookide showcase */
+
+#showcase-joogid {
+  background: url("./img/joogid-kaanepilt.png") no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+  position: relative;
+}
+
+/* Recipe Section */
+.recipe-section {
+  background-color: #7b8a4c;
+  padding: 50px 60px;
+  margin: -72px auto 0 auto;
+  max-width: 1200px;
+  position: relative;
+  border-radius: 10px;
+  box-sizing: border-box;
+  z-index: 5;
+}
+
+/* Recipe Container */
+.recipe-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Recipe Card */
+.recipe-card {
+  background-color: #fff1e4;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.recipe-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Recipe Card Image */
+.recipe-card img {
+  width: 100%;
+  height: 265px;
+  object-fit: cover;
+}
+
+/* Recipe Content */
+.recipe-content {
+  padding: 15px;
+}
+
+.recipe-content h3 {
+  font-family: "Pirata One", serif;
+  font-size: 2.5rem;
+  line-height: 1;
+  color: #7b410d;
+  margin-bottom: 15px;
+}
+
+.recipe-content p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* retseptide showcase */
+
+#showcase-retsept .showcase-content {
+  color: #fff1e4;
+  text-align: center;
+}
+
+#showcase-retsept .showcase-content h2 {
+  font-size: 128px;
+  font-family: Pirata One;
+  font-weight: 400;
+  line-height: 123px;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.75);
+}
+
+/* retseptide tekst */
+
+.recipe-section-retsept {
+  background-color: #fff1e4;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: -72px auto 0 auto;
+  z-index: 5;
+}
+
+.recipe-box {
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.recipe-box h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.recipe-box p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* retseptide showcaseid */
+
+#showcase-retsept-taidetud-munad {
+  background: url(img/Eelroad1.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-rukkileib {
+  background: url(img/Eelroad2.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-seljanka-saiakesed {
+  background: url(img/Eelroad3.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-maksapasteet {
+  background: url(img/Eelroad4.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-kinnine-juustupirukas {
+  background: url(img/Eelroad5.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-baguetid {
+  background: url(img/Eelroad6.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-ramen-supp {
+  background: url(img/Ramen-supp.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-ravioolid {
+  background: url(img/ravioolid.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-mahlane-burger {
+  background: url(img/burger.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-pureesupp {
+  background: url(img/pureesupp.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-rostitud-kartulid {
+  background: url(img/kartulid.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-kana-snitslid {
+  background: url(img/snitsel.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-portugali-kreemikoogid {
+  background: url(img/pastel-de-nata.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-meekook {
+  background: url(img/meekook.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-kaneeliga-pidusai {
+  background: url(img/pidusai.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-makroonid {
+  background: url(img/makroonid.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-sarvesaiad {
+  background: url(img/croissant.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-banaanileib {
+  background: url(img/banaanileib.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-gloggi {
+  background: url(img/gloggi.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-ingveri-turgutus {
+  background: url(img/ingveri-jook.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-punasesostra-siirup {
+  background: url(img/punase-sostra-siirup.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-marjane-smuuti {
+  background: url(img/smuuti.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-ouna-ananassi-porgandimahl {
+  background: url(img/ouna-ananassi-porgandimahl.png) no-repeat center
+    center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
+}
+
+#showcase-retsept-piparmundi-tee {
+  background: url(img/tee.png) no-repeat center center/cover;
+  height: 100%;
+  min-height: 800px;
+  width: 100%;
+  align-content: center;
 }
